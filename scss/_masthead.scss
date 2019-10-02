@@ -1,0 +1,25 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("https://image.freepik.com/free-photo/empty-blackboard_53876-30426.jpg") !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
